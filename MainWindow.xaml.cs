@@ -32,7 +32,7 @@ namespace GestorProductosWPF
 
 
             comboTipoOrdenamiento.ItemsSource = gestor.ObtenerListaProductos();
-            comboTipoOrdenamiento.Items.Add("123456");
+            comboTipoOrdenamiento.Items.Add("Id");
             comboTipoOrdenamiento.Items.Add("Nombre");
             comboTipoOrdenamiento.Items.Add("Precio");
 
